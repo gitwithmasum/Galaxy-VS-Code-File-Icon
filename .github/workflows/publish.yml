@@ -29,5 +29,80 @@ jobs:
       - name: Package extension
         run: npx @vscode/vsce package
 
-      - name: Publish with trusted publishing
-        run: npx @vscode/vsce publish --oidc
+      - name: Exchange GitHub OIDC token for Marketplace credential
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+
+          (async () => {
+            const requestUrl = process.env.ACTIONS_ID_TOKEN_REQUEST_URL;
+            const requestToken = process.env.ACTIONS_ID_TOKEN_REQUEST_TOKEN;
+
+            if (!requestUrl || !requestToken) {
+              throw new Error('GitHub OIDC variables are missing. Ensure id-token: write permission is enabled.');
+            }
+
+            const oidcUrl = new URL(requestUrl);
+            oidcUrl.searchParams.set('audience', 'marketplace.visualstudio.com');
+
+            const oidcResponse = await fetch(oidcUrl, {
+              headers: {
+                Accept: 'application/json',
+                Authorization: `Bearer ${requestToken}`
+              }
+            });
+
+            const oidcBody = await oidcResponse.text();
+            if (!oidcResponse.ok) {
+              throw new Error(`GitHub OIDC token request failed (${oidcResponse.status}): ${oidcBody.slice(0, 500)}`);
+            }
+
+            const oidcData = JSON.parse(oidcBody);
+            if (!oidcData.value) {
+              throw new Error('GitHub OIDC response did not contain a token.');
+            }
+
+            const marketplaceResponse = await fetch(
+              'https://marketplace.visualstudio.com/_apis/gallery/token?api-version=7.2-preview.1',
+              {
+                method: 'POST',
+                headers: {
+                  Accept: 'application/json',
+                  Authorization: `FederatedToken ${oidcData.value}`,
+                  'Content-Type': 'application/json',
+                  'User-Agent': 'vsce'
+                },
+                body: JSON.stringify({ publisherName: 'gitwithmasum' })
+              }
+            );
+
+            const marketplaceBody = await marketplaceResponse.text();
+            if (!marketplaceResponse.ok) {
+              throw new Error(
+                `Marketplace OIDC token exchange failed (${marketplaceResponse.status}): ${marketplaceBody.slice(0, 500)}`
+              );
+            }
+
+            const marketplaceData = JSON.parse(marketplaceBody);
+            if (!marketplaceData.credential) {
+              throw new Error('Marketplace OIDC response did not contain a credential.');
+            }
+
+            console.log(`::add-mask::${marketplaceData.credential}`);
+            fs.appendFileSync(process.env.GITHUB_ENV, `VSCE_PAT=${marketplaceData.credential}\n`);
+          })().catch(error => {
+            console.error(error.message);
+            process.exit(1);
+          });
+          NODE
+
+      - name: Publish packaged VSIX
+        shell: bash
+        run: |
+          VSIX_PATH="$(find . -maxdepth 1 -name '*.vsix' -print -quit)"
+          if [ -z "$VSIX_PATH" ]; then
+            echo "No VSIX package found."
+            exit 1
+          fi
+          npx @vscode/vsce publish --packagePath "$VSIX_PATH"
