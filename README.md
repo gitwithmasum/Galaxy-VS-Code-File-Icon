@@ -1,3 +1,5 @@
+![Masum Galaxy // File Icons](images/marketplace-hero.jpg)
+
 # Masum Galaxy // File Icons
 
 A futuristic, galaxy-inspired **VS Code File Icon Theme** by **Masum Billah**.
@@ -6,9 +8,15 @@ A futuristic, galaxy-inspired **VS Code File Icon Theme** by **Masum Billah**.
 
 The pack is designed to match the **Masum Galaxy** ecosystem: dark space surfaces, cyan/violet neon energy, compact glowing details, and clear technology-specific accent colors.
 
-## Current release — 1.3.1
+## Current release — 1.3.2
+
+Version **1.3.2** adds the final Marketplace branding set: the official **MG Galaxy folder-orbit logo**, a wide Marketplace hero banner, and a dedicated Explorer preview image.
 
 The current pack covers modern web development, full-stack projects, databases, AI/ML and DevOps. It includes dedicated icons for technologies such as React, Next.js, Vite, Tailwind CSS, Node.js, Python, Prisma, PostgreSQL, MongoDB, Firebase, Jupyter Notebook, TensorFlow, PyTorch, Docker, Supabase, Vercel, Netlify and Kubernetes.
+
+## Explorer Preview
+
+![Masum Galaxy Explorer Preview](images/explorer-preview.jpg)
 
 Special Galaxy folder icons cover common project structures including:
 
@@ -50,7 +58,7 @@ cd "D:\OneDrive\Web Development\Galaxy-VS-Code-File-Icon"
 git pull
 npm.cmd install
 npx.cmd vsce package
-code --install-extension .\masum-galaxy-file-icons-1.3.1.vsix --force
+code --install-extension .\masum-galaxy-file-icons-1.3.2.vsix --force
 ```
 
 Then activate:
@@ -69,7 +77,7 @@ Developer: Reload Window
 
 ## Marketplace preparation
 
-Marketplace metadata and the OIDC publishing workflow are now included. The remaining visual launch step is to add PNG branding assets for the extension icon, hero banner and Explorer preview. Publishing details are documented in [PUBLISHING.md](PUBLISHING.md).
+Marketplace metadata, official branding assets, README showcase images, and the OIDC trusted-publishing workflow are now included. Publishing details are documented in [PUBLISHING.md](PUBLISHING.md).
 
 ## Visual direction
 
