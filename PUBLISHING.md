@@ -20,7 +20,7 @@ Before the first automated publish:
 1. Create or open the **gitwithmasum** publisher in Visual Studio Marketplace.
 2. Configure a trusted publishing policy for this GitHub repository and its publish workflow.
 3. Make sure the policy matches `gitwithmasum/Galaxy-VS-Code-File-Icon`.
-4. Push a version tag such as `v1.3.1`, or run the workflow manually.
+4. Push a version tag such as `v1.3.2`, or run the workflow manually.
 
 The workflow uses:
 
@@ -30,16 +30,16 @@ npx @vscode/vsce publish --oidc
 
 No long-lived Marketplace token needs to be stored in the repository.
 
-## Branding assets still required
+## Branding assets included
 
-Before the public Marketplace launch, add PNG assets:
+The Marketplace-ready branding set is now part of the repository:
 
 ```text
 images/icon.png
-images/marketplace-hero.png
-images/explorer-preview.png
+images/marketplace-hero.jpg
+images/explorer-preview.jpg
 ```
 
-Then add the extension icon path to `package.json` and embed the PNG preview images in the README.
+`package.json` uses `images/icon.png` as the extension icon, and the README displays both the hero banner and Explorer preview.
 
-Do not use SVG for the Marketplace extension icon or README screenshots.
+The branding assets use raster formats suitable for Marketplace and README rendering.
