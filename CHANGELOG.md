@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.3.2
+
+- Added the official **MG Galaxy folder-orbit** extension logo and wired it into `package.json`.
+- Added a wide **Marketplace hero banner** using the approved cyan/violet Galaxy branding.
+- Added a dedicated **Explorer preview** showcasing the icon pack in a futuristic VS Code-style layout.
+- Updated the README to display the new hero and Explorer preview assets.
+- Completed the visual branding stage for the Marketplace release.
+
 ## 1.3.1
 
 - Prepared the extension for a cleaner Visual Studio Marketplace release.
