@@ -4,17 +4,27 @@ A futuristic, galaxy-inspired **VS Code File Icon Theme** by **Masum Billah**.
 
 The pack is designed to match the **Masum Galaxy** ecosystem: dark space surfaces, cyan/violet neon energy, compact glowing details, and clear technology-specific accent colors.
 
-## Current release — 1.2.0
+## Current release — 1.3.0
 
-Version **1.2.0** focuses on making the real VS Code Explorer look much closer to the approved preview. Core icons now use stronger recognizable shapes instead of tiny generic document symbols, so they remain distinct at normal Explorer size.
+Version **1.3.0** expands the pack beyond normal web development into **full-stack, database, AI/ML and DevOps** workflows.
 
-Dedicated icons are included for HTML, CSS, JavaScript, TypeScript, React, Python, JSON, Markdown, Git, npm, environment files, Next.js, Vite, Tailwind CSS, Node.js, C, C++, Java, SQL, Docker, Supabase, GitHub, YAML, config files, lockfiles, VSIX packages, LICENSE and CHANGELOG files.
+New coverage includes **Prisma, PostgreSQL, MongoDB, Firebase, Jupyter Notebook, TensorFlow, PyTorch, ML model artifacts, Vercel, Netlify, Kubernetes and CI/CD workflow files**.
 
-Special Galaxy folder icons are included for:
+Special Galaxy folder icons now cover:
 
 ```text
 src
+app
+pages
 components
+routes
+services
+lib
+config
+database / db / migrations
+prisma
+models
+ml / ai / notebooks
 assets / images
 public / static
 themes
@@ -24,11 +34,14 @@ api
 utils / helpers
 hooks
 styles / css
+workflows
 .vscode
 node_modules
 supabase
 .github
 ```
+
+Model-file mappings include `.pt`, `.pth`, `.onnx`, `.pkl`, `.pickle`, `.joblib`, `.h5` and `.tflite`.
 
 ## Install locally
 
@@ -44,7 +57,7 @@ npx.cmd vsce package
 Install the generated VSIX:
 
 ```powershell
-code --install-extension .\masum-galaxy-file-icons-1.2.0.vsix --force
+code --install-extension .\masum-galaxy-file-icons-1.3.0.vsix --force
 ```
 
 Then reload VS Code and activate:
@@ -63,13 +76,11 @@ Developer: Reload Window
 
 ## Visual direction
 
-The icon system follows the approved **Masum Galaxy // File Icons** preview direction:
-
 - dark navy / black surfaces
 - cyan-to-violet neon outlines
 - strong technology-specific accent colors
 - recognizable shapes at small Explorer sizes
-- subtle galaxy styling without making the sidebar visually noisy
+- subtle Galaxy styling without making the sidebar visually noisy
 
 ## Repository
 
