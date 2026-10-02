@@ -1,4 +1,4 @@
-![Masum Galaxy // File Icons](images/marketplace-hero.jpg)
+![Masum Galaxy // File Icons](images/marketplace-hero.png)
 
 # Masum Galaxy // File Icons
 
@@ -16,7 +16,7 @@ The current pack covers modern web development, full-stack projects, databases, 
 
 ## Explorer Preview
 
-![Masum Galaxy Explorer Preview](images/explorer-preview.jpg)
+![Masum Galaxy Explorer Preview](images/explorer-preview.png)
 
 Special Galaxy folder icons cover common project structures including:
 
