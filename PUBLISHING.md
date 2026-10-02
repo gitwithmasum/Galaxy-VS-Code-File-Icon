@@ -36,10 +36,10 @@ The Marketplace-ready branding set is now part of the repository:
 
 ```text
 images/icon.png
-images/marketplace-hero.jpg
-images/explorer-preview.jpg
+images/marketplace-hero.png
+images/explorer-preview.png
 ```
 
 `package.json` uses `images/icon.png` as the extension icon, and the README displays both the hero banner and Explorer preview.
 
-The branding assets use raster formats suitable for Marketplace and README rendering.
+The branding assets use PNG format for sharper Marketplace and README rendering.
