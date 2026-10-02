@@ -42,6 +42,57 @@
     },
     "_env": {
       "iconPath": "../icons/env.svg"
+    },
+    "_nextjs": {
+      "iconPath": "../icons/nextjs.svg"
+    },
+    "_vite": {
+      "iconPath": "../icons/vite.svg"
+    },
+    "_tailwind": {
+      "iconPath": "../icons/tailwind.svg"
+    },
+    "_node": {
+      "iconPath": "../icons/node.svg"
+    },
+    "_c": {
+      "iconPath": "../icons/c.svg"
+    },
+    "_cpp": {
+      "iconPath": "../icons/cpp.svg"
+    },
+    "_java": {
+      "iconPath": "../icons/java.svg"
+    },
+    "_sql": {
+      "iconPath": "../icons/sql.svg"
+    },
+    "_docker": {
+      "iconPath": "../icons/docker.svg"
+    },
+    "_supabase": {
+      "iconPath": "../icons/supabase.svg"
+    },
+    "_github": {
+      "iconPath": "../icons/github.svg"
+    },
+    "_yaml": {
+      "iconPath": "../icons/yaml.svg"
+    },
+    "_config": {
+      "iconPath": "../icons/config.svg"
+    },
+    "_lock": {
+      "iconPath": "../icons/lock.svg"
+    },
+    "_folder_supabase": {
+      "iconPath": "../icons/folder-supabase.svg"
+    },
+    "_folder_github": {
+      "iconPath": "../icons/folder-github.svg"
+    },
+    "_folder_node": {
+      "iconPath": "../icons/folder-node.svg"
     }
   },
   "file": "_file",
@@ -66,23 +117,82 @@
     "jsonc": "_json",
     "md": "_markdown",
     "markdown": "_markdown",
-    "env": "_env"
+    "env": "_env",
+    "c": "_c",
+    "h": "_c",
+    "cpp": "_cpp",
+    "cc": "_cpp",
+    "cxx": "_cpp",
+    "hpp": "_cpp",
+    "hxx": "_cpp",
+    "java": "_java",
+    "jar": "_java",
+    "sql": "_sql",
+    "sqlite": "_sql",
+    "db": "_sql",
+    "yml": "_yaml",
+    "yaml": "_yaml",
+    "lock": "_lock",
+    "dockerfile": "_docker"
   },
   "fileNames": {
     "package.json": "_npm",
-    "package-lock.json": "_npm",
-    "npm-shrinkwrap.json": "_npm",
+    "package-lock.json": "_lock",
+    "npm-shrinkwrap.json": "_lock",
+    "yarn.lock": "_lock",
+    "pnpm-lock.yaml": "_lock",
     ".gitignore": "_git",
     ".gitattributes": "_git",
     ".gitmodules": "_git",
     ".env": "_env",
     ".env.local": "_env",
+    ".env.development": "_env",
+    ".env.production": "_env",
     ".env.example": "_env",
-    "README.md": "_markdown"
+    "README.md": "_markdown",
+    "next.config.js": "_nextjs",
+    "next.config.mjs": "_nextjs",
+    "next.config.ts": "_nextjs",
+    "next-env.d.ts": "_nextjs",
+    "vite.config.js": "_vite",
+    "vite.config.mjs": "_vite",
+    "vite.config.ts": "_vite",
+    "vite.config.mts": "_vite",
+    "tailwind.config.js": "_tailwind",
+    "tailwind.config.cjs": "_tailwind",
+    "tailwind.config.mjs": "_tailwind",
+    "tailwind.config.ts": "_tailwind",
+    ".nvmrc": "_node",
+    "node.config.js": "_node",
+    "Dockerfile": "_docker",
+    "docker-compose.yml": "_docker",
+    "docker-compose.yaml": "_docker",
+    "compose.yml": "_docker",
+    "compose.yaml": "_docker",
+    "supabase.js": "_supabase",
+    "supabase.ts": "_supabase",
+    ".github": "_github",
+    "settings.json": "_config",
+    "tsconfig.json": "_config",
+    "jsconfig.json": "_config",
+    "eslint.config.js": "_config",
+    "eslint.config.mjs": "_config",
+    "prettier.config.js": "_config"
+  },
+  "folderNames": {
+    "supabase": "_folder_supabase",
+    ".github": "_folder_github",
+    "node_modules": "_folder_node"
+  },
+  "folderNamesExpanded": {
+    "supabase": "_folder_supabase",
+    ".github": "_folder_github",
+    "node_modules": "_folder_node"
   },
   "languageIds": {
     "html": "_html",
     "css": "_css",
+    "scss": "_css",
     "javascript": "_js",
     "javascriptreact": "_react",
     "typescript": "_ts",
@@ -90,6 +200,12 @@
     "python": "_python",
     "json": "_json",
     "jsonc": "_json",
-    "markdown": "_markdown"
+    "markdown": "_markdown",
+    "c": "_c",
+    "cpp": "_cpp",
+    "java": "_java",
+    "sql": "_sql",
+    "yaml": "_yaml",
+    "dockerfile": "_docker"
   }
 }
