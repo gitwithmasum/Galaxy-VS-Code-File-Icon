@@ -85,6 +85,15 @@
     "_lock": {
       "iconPath": "../icons/lock.svg"
     },
+    "_vsix": {
+      "iconPath": "../icons/vsix.svg"
+    },
+    "_license": {
+      "iconPath": "../icons/license.svg"
+    },
+    "_changelog": {
+      "iconPath": "../icons/changelog.svg"
+    },
     "_folder_supabase": {
       "iconPath": "../icons/folder-supabase.svg"
     },
@@ -93,6 +102,42 @@
     },
     "_folder_node": {
       "iconPath": "../icons/folder-node.svg"
+    },
+    "_folder_src": {
+      "iconPath": "../icons/folder-src.svg"
+    },
+    "_folder_components": {
+      "iconPath": "../icons/folder-components.svg"
+    },
+    "_folder_assets": {
+      "iconPath": "../icons/folder-assets.svg"
+    },
+    "_folder_public": {
+      "iconPath": "../icons/folder-public.svg"
+    },
+    "_folder_themes": {
+      "iconPath": "../icons/folder-themes.svg"
+    },
+    "_folder_icons": {
+      "iconPath": "../icons/folder-icons.svg"
+    },
+    "_folder_tests": {
+      "iconPath": "../icons/folder-tests.svg"
+    },
+    "_folder_api": {
+      "iconPath": "../icons/folder-api.svg"
+    },
+    "_folder_utils": {
+      "iconPath": "../icons/folder-utils.svg"
+    },
+    "_folder_hooks": {
+      "iconPath": "../icons/folder-hooks.svg"
+    },
+    "_folder_styles": {
+      "iconPath": "../icons/folder-styles.svg"
+    },
+    "_folder_vscode": {
+      "iconPath": "../icons/folder-vscode.svg"
     }
   },
   "file": "_file",
@@ -133,7 +178,8 @@
     "yml": "_yaml",
     "yaml": "_yaml",
     "lock": "_lock",
-    "dockerfile": "_docker"
+    "dockerfile": "_docker",
+    "vsix": "_vsix"
   },
   "fileNames": {
     "package.json": "_npm",
@@ -150,6 +196,10 @@
     ".env.production": "_env",
     ".env.example": "_env",
     "README.md": "_markdown",
+    "CHANGELOG.md": "_changelog",
+    "LICENSE": "_license",
+    "LICENSE.md": "_license",
+    ".vscodeignore": "_config",
     "next.config.js": "_nextjs",
     "next.config.mjs": "_nextjs",
     "next.config.ts": "_nextjs",
@@ -171,7 +221,6 @@
     "compose.yaml": "_docker",
     "supabase.js": "_supabase",
     "supabase.ts": "_supabase",
-    ".github": "_github",
     "settings.json": "_config",
     "tsconfig.json": "_config",
     "jsconfig.json": "_config",
@@ -182,12 +231,64 @@
   "folderNames": {
     "supabase": "_folder_supabase",
     ".github": "_folder_github",
-    "node_modules": "_folder_node"
+    "node_modules": "_folder_node",
+    "src": "_folder_src",
+    "source": "_folder_src",
+    "components": "_folder_components",
+    "component": "_folder_components",
+    "assets": "_folder_assets",
+    "images": "_folder_assets",
+    "img": "_folder_assets",
+    "public": "_folder_public",
+    "static": "_folder_public",
+    "themes": "_folder_themes",
+    "theme": "_folder_themes",
+    "icons": "_folder_icons",
+    "icon": "_folder_icons",
+    "tests": "_folder_tests",
+    "test": "_folder_tests",
+    "__tests__": "_folder_tests",
+    "api": "_folder_api",
+    "apis": "_folder_api",
+    "utils": "_folder_utils",
+    "utilities": "_folder_utils",
+    "helpers": "_folder_utils",
+    "hooks": "_folder_hooks",
+    "styles": "_folder_styles",
+    "style": "_folder_styles",
+    "css": "_folder_styles",
+    ".vscode": "_folder_vscode"
   },
   "folderNamesExpanded": {
     "supabase": "_folder_supabase",
     ".github": "_folder_github",
-    "node_modules": "_folder_node"
+    "node_modules": "_folder_node",
+    "src": "_folder_src",
+    "source": "_folder_src",
+    "components": "_folder_components",
+    "component": "_folder_components",
+    "assets": "_folder_assets",
+    "images": "_folder_assets",
+    "img": "_folder_assets",
+    "public": "_folder_public",
+    "static": "_folder_public",
+    "themes": "_folder_themes",
+    "theme": "_folder_themes",
+    "icons": "_folder_icons",
+    "icon": "_folder_icons",
+    "tests": "_folder_tests",
+    "test": "_folder_tests",
+    "__tests__": "_folder_tests",
+    "api": "_folder_api",
+    "apis": "_folder_api",
+    "utils": "_folder_utils",
+    "utilities": "_folder_utils",
+    "helpers": "_folder_utils",
+    "hooks": "_folder_hooks",
+    "styles": "_folder_styles",
+    "style": "_folder_styles",
+    "css": "_folder_styles",
+    ".vscode": "_folder_vscode"
   },
   "languageIds": {
     "html": "_html",
