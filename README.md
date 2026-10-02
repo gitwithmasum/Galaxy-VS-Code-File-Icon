@@ -2,9 +2,11 @@
 
 A futuristic, galaxy-inspired **VS Code File Icon Theme** by **Masum Billah**.
 
-## First release
+The pack is designed to match the **Masum Galaxy** ecosystem: dark space surfaces, cyan/violet neon energy, compact glowing details, and clear technology-specific accent colors.
 
-The starter pack includes dedicated icons for:
+## Included icons
+
+The current **1.1.0** pack includes dedicated icons for:
 
 - HTML
 - CSS / SCSS / Sass / Less
@@ -14,11 +16,27 @@ The starter pack includes dedicated icons for:
 - Python
 - JSON
 - Markdown
-- Git files
-- npm files
+- Git
+- npm
 - environment files
+- Next.js
+- Vite
+- Tailwind CSS
+- Node.js
+- C
+- C++
+- Java
+- SQL / database files
+- Docker / Docker Compose
+- Supabase
+- GitHub
+- YAML
+- config files
+- lockfiles
 - default files
 - folders and expanded folders
+
+It also includes special folder treatments for **Supabase**, **.github**, and **node_modules**.
 
 ## Install locally
 
@@ -29,17 +47,17 @@ git clone https://github.com/gitwithmasum/Galaxy-VS-Code-File-Icon.git
 cd Galaxy-VS-Code-File-Icon
 ```
 
-Package the extension:
+Install dependencies and package the extension:
 
 ```powershell
-npm.cmd install -g @vscode/vsce
+npm.cmd install
 npx.cmd vsce package
 ```
 
 Install the generated VSIX:
 
 ```powershell
-code --install-extension .\masum-galaxy-file-icons-1.0.0.vsix --force
+code --install-extension .\masum-galaxy-file-icons-1.1.0.vsix --force
 ```
 
 Then in VS Code:
@@ -50,9 +68,16 @@ Ctrl + Shift + P
 → Masum Galaxy // File Icons
 ```
 
-## Design direction
+## Visual direction
 
-The icon language uses dark space tones, cyan/violet energy, and compact neon accents so Explorer stays readable while matching the **Masum Galaxy** ecosystem.
+The icon system follows the approved **Masum Galaxy // File Icons** preview direction:
+
+- dark navy / black icon surfaces
+- cyan-to-violet neon outlines
+- subtle galaxy glow
+- individual accent colors per technology
+- clean shapes that stay readable in the Explorer
+- futuristic styling without making the sidebar visually noisy
 
 ## Repository
 
