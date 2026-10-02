@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.3.0
+
+- Expanded the icon pack from web development into **full-stack, database, AI/ML and DevOps** workflows.
+- Added dedicated icons for **Prisma, PostgreSQL, MongoDB, Firebase, Jupyter Notebook, TensorFlow, PyTorch, ML model files, Vercel, Netlify, Kubernetes and CI/CD workflow files**.
+- Added special Galaxy folders for **app, pages, routes, services, lib, config, database, prisma, models, AI/ML notebooks and workflows**.
+- Added mappings for model artifacts including `.pt`, `.pth`, `.onnx`, `.pkl`, `.pickle`, `.joblib`, `.h5` and `.tflite`.
+- Added mappings for common deployment/config files including `vercel.json`, `netlify.toml`, Firebase config, Prisma schema files and common Kubernetes manifests.
+- Kept the same compact neon Galaxy visual language and 16px Explorer readability.
+
 ## 1.2.0
 
 - Reworked the core icon set for much clearer **16px Explorer readability**.
