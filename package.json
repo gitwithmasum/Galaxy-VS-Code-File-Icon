@@ -1,0 +1,45 @@
+{
+  "name": "masum-galaxy-file-icons",
+  "displayName": "Masum Galaxy // File Icons",
+  "description": "A futuristic galaxy-inspired VS Code file icon theme by Masum Billah.",
+  "version": "1.0.0",
+  "publisher": "gitwithmasum",
+  "author": {
+    "name": "Masum Billah",
+    "url": "https://github.com/gitwithmasum"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "file icons",
+    "icon theme",
+    "galaxy",
+    "futuristic",
+    "vscode",
+    "developer icons",
+    "dark",
+    "neon"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitwithmasum/Galaxy-VS-Code-File-Icon.git"
+  },
+  "homepage": "https://github.com/gitwithmasum/Galaxy-VS-Code-File-Icon#readme",
+  "bugs": {
+    "url": "https://github.com/gitwithmasum/Galaxy-VS-Code-File-Icon/issues"
+  },
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "masum-galaxy-file-icons",
+        "label": "Masum Galaxy // File Icons",
+        "path": "./themes/masum-galaxy-file-icons.json"
+      }
+    ]
+  }
+}
