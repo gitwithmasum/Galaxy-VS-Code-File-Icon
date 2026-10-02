@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#020817"/>
+    <stop offset="0.55" stop-color="#07142b"/>
+    <stop offset="1" stop-color="#100827"/>
+  </linearGradient>
+  <linearGradient id="cyanViolet" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#43efff"/>
+    <stop offset="0.48" stop-color="#3f8cff"/>
+    <stop offset="1" stop-color="#b15cff"/>
+  </linearGradient>
+  <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset="0.28" stop-color="#57f0ff"/>
+    <stop offset="0.65" stop-color="#4d8cff"/>
+    <stop offset="1" stop-color="#c563ff"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="14"/></filter>
+</defs>
+
+<rect width="1600" height="900" fill="url(#bg)"/>
+
+<!-- galaxy ambience -->
+<ellipse cx="1400" cy="150" rx="260" ry="95" fill="none" stroke="#684fff" stroke-width="18" opacity=".22" transform="rotate(-18 1400 150)" filter="url(#soft)"/>
+<ellipse cx="1400" cy="150" rx="220" ry="62" fill="none" stroke="#36e8ff" stroke-width="8" opacity=".35" transform="rotate(-18 1400 150)"/>
+<ellipse cx="80" cy="700" rx="290" ry="100" fill="none" stroke="#2deaff" stroke-width="16" opacity=".18" transform="rotate(-18 80 700)" filter="url(#soft)"/>
+<circle cx="1330" cy="110" r="45" fill="#07183a" stroke="#4cecff" stroke-width="3"/>
+<circle cx="1485" cy="690" r="68" fill="#071330" stroke="#855bff" stroke-width="3"/>
+<g fill="#eafbff" opacity=".85">
+  <circle cx="70" cy="80" r="2"/><circle cx="145" cy="110" r="1.5"/><circle cx="260" cy="55" r="2"/>
+  <circle cx="1190" cy="65" r="1.8"/><circle cx="1520" cy="80" r="2"/><circle cx="1260" cy="235" r="1.5"/>
+  <circle cx="90" cy="540" r="1.5"/><circle cx="1550" cy="480" r="1.8"/><circle cx="1420" cy="820" r="1.4"/>
+</g>
+
+<!-- header logo -->
+<g transform="translate(70 48)">
+  <rect x="0" y="0" width="170" height="116" rx="28" fill="#071226" stroke="url(#cyanViolet)" stroke-width="4"/>
+  <path d="M0 30h62l18 20h90v66H0z" fill="#081a34" stroke="url(#cyanViolet)" stroke-width="4"/>
+  <path d="M38 48l34 34 31-35 32 31" fill="none" stroke="#5befff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M104 72h35v31h-35l-15-15z" fill="none" stroke="#a768ff" stroke-width="10" stroke-linejoin="round"/>
+  <ellipse cx="88" cy="80" rx="112" ry="27" fill="none" stroke="url(#cyanViolet)" stroke-width="5" transform="rotate(-12 88 80)" filter="url(#glow)"/>
+</g>
+
+<text x="285" y="95" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" fill="url(#titleGrad)">Masum Galaxy // File Icons</text>
+<text x="288" y="132" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="8" fill="#a9bfe5">A GALAXY OF ICONS FOR YOUR CODE</text>
+<text x="1362" y="78" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="4" fill="#c6d8f5">BUILT</text>
+<text x="1362" y="101" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="4" fill="#c6d8f5">FOR</text>
+<text x="1362" y="124" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="4" fill="#c6d8f5">DEVELOPERS</text>
+<line x1="1362" y1="140" x2="1415" y2="140" stroke="#4defff" stroke-width="3"/>
+
+<!-- main editor window -->
+<rect x="75" y="180" width="1450" height="650" rx="22" fill="#050c18" stroke="#259dff" stroke-width="2"/>
+<rect x="76" y="180" width="1448" height="52" rx="21" fill="#081428"/>
+<line x1="75" y1="232" x2="1525" y2="232" stroke="#174064"/>
+<circle cx="108" cy="207" r="9" fill="#ff5f57"/><circle cx="138" cy="207" r="9" fill="#febc2e"/><circle cx="168" cy="207" r="9" fill="#28c840"/>
+<path d="M520 207h22M530 197l-10 10 10 10M565 207h22M577 197l10 10-10 10" fill="none" stroke="#9cb5db" stroke-width="2"/>
+<rect x="615" y="191" width="500" height="32" rx="9" fill="#091b34" stroke="#28486b"/>
+<circle cx="802" cy="207" r="7" fill="none" stroke="#98b7e2" stroke-width="2"/>
+<line x1="807" y1="212" x2="814" y2="219" stroke="#98b7e2" stroke-width="2"/>
+<text x="825" y="213" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#a7bee1">masum-galaxy</text>
+
+<!-- activity bar -->
+<rect x="76" y="232" width="70" height="598" fill="#061020"/>
+<g stroke="#77a7ff" fill="none" stroke-width="3">
+  <path d="M97 265l28-18v37l-28-18z" fill="#138cff" stroke="none"/>
+  <rect x="98" y="304" width="24" height="30" rx="3"/>
+  <circle cx="110" cy="372" r="12"/>
+  <path d="M99 440h22M110 428v24"/>
+  <path d="M98 493l24 14-24 14z"/>
+  <rect x="98" y="558" width="24" height="24" rx="3"/>
+  <circle cx="110" cy="689" r="13"/>
+  <circle cx="110" cy="760" r="12"/>
+</g>
+
+<!-- explorer -->
+<rect x="146" y="232" width="410" height="598" fill="#07101d"/>
+<text x="175" y="266" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#e6efff">EXPLORER</text>
+<text x="176" y="304" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#f4f8ff">⌄  MASUM-GALAXY</text>
+
+<!-- folder/file rows -->
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#d6e1f4">
+  <text x="190" y="342" fill="#aab9d2">›</text><text x="228" y="342">.github</text>
+  <text x="190" y="378" fill="#aab9d2">›</text><text x="228" y="378">app</text>
+  <text x="190" y="414" fill="#aab9d2">›</text><text x="228" y="414">components</text>
+  <text x="190" y="450" fill="#aab9d2">›</text><text x="228" y="450">routes</text>
+  <text x="190" y="486" fill="#aab9d2">›</text><text x="228" y="486">services</text>
+  <text x="190" y="522" fill="#aab9d2">›</text><text x="228" y="522">assets</text>
+  <text x="190" y="558" fill="#aab9d2">›</text><text x="228" y="558">database</text>
+  <text x="190" y="594" fill="#aab9d2">›</text><text x="228" y="594">models</text>
+  <text x="190" y="630" fill="#aab9d2">⌄</text><text x="228" y="630">ml</text>
+  <text x="258" y="666">tensorflow.py</text>
+  <text x="258" y="702">notebook.ipynb</text>
+  <text x="190" y="738" fill="#aab9d2">›</text><text x="228" y="738">node_modules</text>
+  <text x="190" y="774" fill="#aab9d2">⌄</text><text x="228" y="774">themes</text>
+  <text x="258" y="810">icons</text>
+</g>
+
+<!-- colorful explorer icons -->
+<g stroke-width="2">
+  <circle cx="210" cy="336" r="11" fill="#101b34" stroke="#e9efff"/>
+  <rect x="201" y="360" width="26" height="18" rx="4" fill="#133c70" stroke="#4defff"/>
+  <rect x="201" y="396" width="26" height="18" rx="4" fill="#38245e" stroke="#b565ff"/>
+  <rect x="201" y="432" width="26" height="18" rx="4" fill="#0a4b35" stroke="#44ff9b"/>
+  <rect x="201" y="468" width="26" height="18" rx="4" fill="#69420a" stroke="#ffc14e"/>
+  <rect x="201" y="504" width="26" height="18" rx="4" fill="#0a4652" stroke="#43efff"/>
+  <ellipse cx="214" cy="548" rx="12" ry="7" fill="#0a335f" stroke="#45bcff"/>
+  <rect x="202" y="582" width="24" height="22" rx="4" fill="#39225f" stroke="#9f68ff"/>
+  <circle cx="214" cy="620" r="12" fill="#5a175c" stroke="#ff67da"/>
+  <circle cx="240" cy="658" r="9" fill="#244f9d" stroke="#ffd44f"/>
+  <rect x="231" y="682" width="18" height="20" rx="4" fill="#8a4710" stroke="#ffb34d"/>
+  <rect x="201" y="720" width="26" height="18" rx="4" fill="#0e4c31" stroke="#45ff9a"/>
+  <circle cx="214" cy="764" r="11" fill="#5d175d" stroke="#ff68da"/>
+  <rect x="231" y="794" width="23" height="16" rx="4" fill="#173b70" stroke="#57a0ff"/>
+</g>
+
+<!-- tabs/editor -->
+<rect x="556" y="232" width="969" height="598" fill="#06101f"/>
+<rect x="556" y="232" width="215" height="48" fill="#071324" stroke="#1d3858"/>
+<rect x="771" y="232" width="220" height="48" fill="#09203a" stroke="#1b8dd7"/>
+<rect x="991" y="232" width="230" height="48" fill="#071324" stroke="#1d3858"/>
+<text x="595" y="262" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#bacbe4">README.md</text>
+<text x="820" y="262" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#eaf8ff">app.tsx</text>
+<text x="1040" y="262" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#bacbe4">schema.prisma</text>
+<line x1="771" y1="279" x2="991" y2="279" stroke="#2be7ff" stroke-width="3"/>
+<text x="585" y="310" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#9fb3d0">app  ›  routes  ›  Home.tsx  ›  Home</text>
+
+<!-- code -->
+<g font-family="Consolas, Menlo, monospace" font-size="18">
+  <g fill="#58718f">
+    <text x="585" y="350">1</text><text x="585" y="386">2</text><text x="585" y="422">3</text><text x="585" y="458">4</text>
+    <text x="585" y="510">6</text><text x="585" y="546">7</text><text x="585" y="582">8</text><text x="585" y="618">9</text>
+    <text x="575" y="654">10</text><text x="575" y="690">11</text><text x="575" y="726">12</text><text x="575" y="762">13</text>
+  </g>
+  <text x="635" y="350" fill="#ff72cf">import</text><text x="715" y="350" fill="#dbe7f5"> React </text><text x="790" y="350" fill="#ff72cf">from</text><text x="845" y="350" fill="#9cff62"> 'react';</text>
+  <text x="635" y="386" fill="#ff72cf">import</text><text x="715" y="386" fill="#f7d84f"> { GalaxyBackground } </text><text x="965" y="386" fill="#ff72cf">from</text><text x="1020" y="386" fill="#9cff62"> '@/components/GalaxyBackground';</text>
+  <text x="635" y="422" fill="#ff72cf">import</text><text x="715" y="422" fill="#f7d84f"> { Button } </text><text x="850" y="422" fill="#ff72cf">from</text><text x="905" y="422" fill="#9cff62"> '@/components/ui/Button';</text>
+  <text x="635" y="458" fill="#ff72cf">import</text><text x="715" y="458" fill="#f7d84f"> { Sparkles, Rocket } </text><text x="940" y="458" fill="#ff72cf">from</text><text x="995" y="458" fill="#9cff62"> 'lucide-react';</text>
+  <text x="635" y="510" fill="#ff72cf">export default</text><text x="790" y="510" fill="#69eaff"> function </text><text x="905" y="510" fill="#ffd84b">Home()</text><text x="995" y="510" fill="#f7d84f"> {</text>
+  <text x="665" y="546" fill="#ff72cf">return</text><text x="740" y="546" fill="#e8edf6"> (</text>
+  <text x="695" y="582" fill="#d8e9ff">&lt;div </text><text x="760" y="582" fill="#6fefff">className</text><text x="860" y="582" fill="#e8edf6">=</text><text x="875" y="582" fill="#9cff62">"min-h-screen relative overflow-hidden"</text><text x="1250" y="582" fill="#d8e9ff">&gt;</text>
+  <text x="725" y="618" fill="#d8e9ff">&lt;GalaxyBackground /&gt;</text>
+  <text x="725" y="654" fill="#d8e9ff">&lt;div </text><text x="790" y="654" fill="#6fefff">className</text><text x="890" y="654" fill="#e8edf6">=</text><text x="905" y="654" fill="#9cff62">"relative z-10 container mx-auto px-6 py-20"</text><text x="1330" y="654" fill="#d8e9ff">&gt;</text>
+  <text x="755" y="690" fill="#d8e9ff">&lt;h1 </text><text x="810" y="690" fill="#6fefff">className</text><text x="910" y="690" fill="#e8edf6">=</text><text x="925" y="690" fill="#9cff62">"text-4xl md:text-6xl font-bold"</text><text x="1275" y="690" fill="#d8e9ff">&gt;</text>
+  <text x="785" y="726" fill="url(#titleGrad)" font-weight="700">Build Something Galactic</text>
+  <text x="755" y="762" fill="#d8e9ff">&lt;/h1&gt;</text>
+</g>
+
+<!-- CTA pills -->
+<rect x="795" y="785" width="240" height="44" rx="10" fill="#071a2e" stroke="#26dfff" stroke-width="2"/>
+<text x="845" y="813" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#57ecff">✦ Explore the Icons</text>
+<rect x="1050" y="785" width="220" height="44" rx="10" fill="#1c1233" stroke="#9b5cff" stroke-width="2"/>
+<text x="1100" y="813" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#d694ff">★ Star on GitHub</text>
+
+<!-- status bar -->
+<rect x="76" y="830" width="1448" height="44" fill="#08152b"/>
+<text x="185" y="858" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#b9c9df">⌘ main   ↻ 0   ⚠ 0</text>
+<text x="1040" y="858" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#b9c9df">TypeScript React     Ln 1, Col 1     Spaces: 2     UTF-8     LF     TSX</text>
+</svg>
