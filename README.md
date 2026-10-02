@@ -2,15 +2,15 @@
 
 A futuristic, galaxy-inspired **VS Code File Icon Theme** by **Masum Billah**.
 
+**Free · MIT · Web + Full Stack + AI/ML + DevOps**
+
 The pack is designed to match the **Masum Galaxy** ecosystem: dark space surfaces, cyan/violet neon energy, compact glowing details, and clear technology-specific accent colors.
 
-## Current release — 1.3.0
+## Current release — 1.3.1
 
-Version **1.3.0** expands the pack beyond normal web development into **full-stack, database, AI/ML and DevOps** workflows.
+The current pack covers modern web development, full-stack projects, databases, AI/ML and DevOps. It includes dedicated icons for technologies such as React, Next.js, Vite, Tailwind CSS, Node.js, Python, Prisma, PostgreSQL, MongoDB, Firebase, Jupyter Notebook, TensorFlow, PyTorch, Docker, Supabase, Vercel, Netlify and Kubernetes.
 
-New coverage includes **Prisma, PostgreSQL, MongoDB, Firebase, Jupyter Notebook, TensorFlow, PyTorch, ML model artifacts, Vercel, Netlify, Kubernetes and CI/CD workflow files**.
-
-Special Galaxy folder icons now cover:
+Special Galaxy folder icons cover common project structures including:
 
 ```text
 src
@@ -45,22 +45,15 @@ Model-file mappings include `.pt`, `.pth`, `.onnx`, `.pkl`, `.pickle`, `.joblib`
 
 ## Install locally
 
-Update the repository and package the extension:
-
 ```powershell
 cd "D:\OneDrive\Web Development\Galaxy-VS-Code-File-Icon"
 git pull
 npm.cmd install
 npx.cmd vsce package
+code --install-extension .\masum-galaxy-file-icons-1.3.1.vsix --force
 ```
 
-Install the generated VSIX:
-
-```powershell
-code --install-extension .\masum-galaxy-file-icons-1.3.0.vsix --force
-```
-
-Then reload VS Code and activate:
+Then activate:
 
 ```text
 Ctrl + Shift + P
@@ -68,11 +61,15 @@ Ctrl + Shift + P
 → Masum Galaxy // File Icons
 ```
 
-If the old icons remain visible, run:
+If cached icons remain visible:
 
 ```text
 Developer: Reload Window
 ```
+
+## Marketplace preparation
+
+Marketplace metadata and the OIDC publishing workflow are now included. The remaining visual launch step is to add PNG branding assets for the extension icon, hero banner and Explorer preview. Publishing details are documented in [PUBLISHING.md](PUBLISHING.md).
 
 ## Visual direction
 
@@ -82,9 +79,10 @@ Developer: Reload Window
 - recognizable shapes at small Explorer sizes
 - subtle Galaxy styling without making the sidebar visually noisy
 
-## Repository
+## Links
 
-https://github.com/gitwithmasum/Galaxy-VS-Code-File-Icon
+- Repository: https://github.com/gitwithmasum/Galaxy-VS-Code-File-Icon
+- Issues: https://github.com/gitwithmasum/Galaxy-VS-Code-File-Icon/issues
 
 ## License
 
