@@ -1,0 +1,95 @@
+{
+  "hidesExplorerArrows": false,
+  "iconDefinitions": {
+    "_file": {
+      "iconPath": "../icons/file.svg"
+    },
+    "_folder": {
+      "iconPath": "../icons/folder.svg"
+    },
+    "_folder_open": {
+      "iconPath": "../icons/folder-open.svg"
+    },
+    "_html": {
+      "iconPath": "../icons/html.svg"
+    },
+    "_css": {
+      "iconPath": "../icons/css.svg"
+    },
+    "_js": {
+      "iconPath": "../icons/javascript.svg"
+    },
+    "_ts": {
+      "iconPath": "../icons/typescript.svg"
+    },
+    "_react": {
+      "iconPath": "../icons/react.svg"
+    },
+    "_python": {
+      "iconPath": "../icons/python.svg"
+    },
+    "_json": {
+      "iconPath": "../icons/json.svg"
+    },
+    "_markdown": {
+      "iconPath": "../icons/markdown.svg"
+    },
+    "_git": {
+      "iconPath": "../icons/git.svg"
+    },
+    "_npm": {
+      "iconPath": "../icons/npm.svg"
+    },
+    "_env": {
+      "iconPath": "../icons/env.svg"
+    }
+  },
+  "file": "_file",
+  "folder": "_folder",
+  "folderExpanded": "_folder_open",
+  "fileExtensions": {
+    "html": "_html",
+    "htm": "_html",
+    "css": "_css",
+    "scss": "_css",
+    "sass": "_css",
+    "less": "_css",
+    "js": "_js",
+    "mjs": "_js",
+    "cjs": "_js",
+    "jsx": "_react",
+    "ts": "_ts",
+    "tsx": "_react",
+    "py": "_python",
+    "pyw": "_python",
+    "json": "_json",
+    "jsonc": "_json",
+    "md": "_markdown",
+    "markdown": "_markdown",
+    "env": "_env"
+  },
+  "fileNames": {
+    "package.json": "_npm",
+    "package-lock.json": "_npm",
+    "npm-shrinkwrap.json": "_npm",
+    ".gitignore": "_git",
+    ".gitattributes": "_git",
+    ".gitmodules": "_git",
+    ".env": "_env",
+    ".env.local": "_env",
+    ".env.example": "_env",
+    "README.md": "_markdown"
+  },
+  "languageIds": {
+    "html": "_html",
+    "css": "_css",
+    "javascript": "_js",
+    "javascriptreact": "_react",
+    "typescript": "_ts",
+    "typescriptreact": "_react",
+    "python": "_python",
+    "json": "_json",
+    "jsonc": "_json",
+    "markdown": "_markdown"
+  }
+}
