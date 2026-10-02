@@ -1,7 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8DF3FF"/><stop offset="1" stop-color="#A96BFF"/></linearGradient></defs>
-<path d="M14 6h25l11 11v41H14z" fill="#07101d" stroke="url(#g)" stroke-width="3"/>
-<path d="M39 6v13h11" fill="none" stroke="url(#g)" stroke-width="3"/>
-<circle cx="19" cy="49" r="2" fill="#8DF3FF"/><circle cx="45" cy="26" r="1.6" fill="#A96BFF"/>
-<text x="32" y="41" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="15" fill="url(#g)">M</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+<defs><linearGradient id="g" x1="4" y1="7" x2="28" y2="25" gradientUnits="userSpaceOnUse"><stop stop-color="#75F0FF"/><stop offset="1" stop-color="#9D6DFF"/></linearGradient></defs>
+<rect x="3.5" y="7" width="25" height="18" rx="4" fill="#07101D" stroke="url(#g)" stroke-width="2"/>
+<path d="M7 20V12h2.5l2.6 3.3 2.6-3.3h2.5v8h-2.6v-4.4l-2.5 3.1-2.5-3.1V20zM20 12h3v4h2l-3.5 4L18 16h2z" fill="url(#g)"/>
 </svg>
