@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.3.1
+
+- Prepared the extension for a cleaner Visual Studio Marketplace release.
+- Added Marketplace gallery metadata and marked the extension as free.
+- Added a GitHub Actions workflow for trusted Marketplace publishing with OIDC.
+- Added `PUBLISHING.md` with local packaging, trusted publishing and branding-asset guidance.
+- Kept PNG branding assets as the remaining visual step before public Marketplace launch.
+
 ## 1.3.0
 
 - Expanded the icon pack from web development into **full-stack, database, AI/ML and DevOps** workflows.
